@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96.000008"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-filename="D:\Projects\C\tilemap\resources\wood_icon.png"
+   sodipodi:docname="wood_icon.svg"
+   inkscape:version="1.0beta2 (589b019, 2020-04-03)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 8.4666673 8.4666659"
+   height="32"
+   width="32">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="14.958717"
+     inkscape:cx="12.227282"
+     inkscape:zoom="15.839192"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       transform="rotate(49.605976)"
+       y="-3.3607807"
+       x="3.6701345"
+       height="5.4578781"
+       width="1.5431501"
+       id="rect833"
+       style="fill:#b27c51;fill-opacity:1;stroke-width:1.04193;stroke-linecap:round" />
+    <rect
+       style="fill:#b27c51;fill-opacity:1;stroke-width:1.07148;stroke-linecap:round"
+       id="rect833-9"
+       width="1.5869128"
+       height="5.6126599"
+       x="5.4721069"
+       y="-2.2564509"
+       transform="rotate(49.605976)" />
+    <rect
+       style="fill:#b27c51;fill-opacity:1;stroke-width:0.82051;stroke-linecap:round"
+       id="rect833-91"
+       width="1.2117012"
+       height="4.3104787"
+       x="7.4237318"
+       y="-3.0626144"
+       transform="matrix(0.66157175,0.74988187,-0.77302024,0.63438136,0,0)" />
+  </g>
+</svg>

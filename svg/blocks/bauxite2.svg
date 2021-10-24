@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1442"
+   inkscape:version="1.0beta2 (589b019, 2020-04-03)"
+   sodipodi:docname="bauxite2.svg"
+   inkscape:export-filename="D:\Projects\C\tilemap\resources\blocks\bauxite2.png"
+   inkscape:export-xdpi="16.394203"
+   inkscape:export-ydpi="16.394203">
+  <defs
+     id="defs1436" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="301.81157"
+     inkscape:cy="472.93795"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1439">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ca8c3e;fill-opacity:0.98823529;stroke-width:0.964999"
+       id="rect2005"
+       width="99.156998"
+       height="99.156998"
+       x="55.324795"
+       y="89.000748" />
+    <circle
+       r="8.2209816"
+       cy="128.2359"
+       cx="90.675819"
+       id="path1442"
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.964999" />
+    <circle
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443678"
+       id="path1442-0"
+       cx="76.067703"
+       cy="105.92783"
+       r="3.7797613" />
+    <circle
+       r="3.7797613"
+       cy="149.71887"
+       cx="106.33218"
+       id="path1442-0-6"
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677" />
+    <circle
+       r="3.7797613"
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677"
+       id="path1442-0-6-5"
+       cx="133.2366"
+       cy="172.76199" />
+    <circle
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677"
+       id="path1442-0-6-55"
+       cx="81.952324"
+       cy="168.48241"
+       r="3.7797613" />
+    <circle
+       r="8.2209816"
+       cy="152.51015"
+       cx="134.40799"
+       id="path1442-8-5"
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.964999" />
+    <circle
+       r="3.7797613"
+       cy="149.02681"
+       cx="66.794899"
+       id="path1442-0-6-55-1"
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677" />
+    <circle
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677"
+       id="path1442-0-6-3"
+       cx="117.78543"
+       cy="102.59789"
+       r="3.7797613" />
+    <circle
+       style="fill:#4c3915;fill-opacity:0.988235;stroke-width:0.443677"
+       id="path1442-0-6-4"
+       cx="140.04018"
+       cy="120.38541"
+       r="3.7797613" />
+  </g>
+</svg>

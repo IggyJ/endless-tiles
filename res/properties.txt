@@ -1,0 +1,217 @@
+Warning: Semicolons and equal signs are key characters, do not use them in comments.
+Properties must be in order of resources then blocks.
+
+RESOURCES = 4;      <- Amount of resources to load (max is 65536)
+BLOCKS = 11;        <- Amount of blocks to load (max is 65536)
+PMOBS = 1;          <- Amount of passive mobs to load (max is 256)
+
+
+-------------------- RESOURCES --------------------
+
+Resource attributes must be in order of ID, Name and Icon.
+ALL attributes must be included.
+
+
+Resource:
+    ID = 0;
+    Name = Soil;
+    Icon = res/soil_icon.png;
+
+Resource:
+    ID = 1;
+    Name = Stone;
+    Icon = res/stone_icon.png;
+
+Resource:
+    ID = 2;
+    Name = Iron Ore;
+    Icon = res/iron_ore_icon.png;
+
+Resource:
+    ID = 3;
+    Name = Wood;
+    Icon = res/wood_icon.png;
+
+
+
+-------------------- BLOCKS --------------------
+
+Block attributes must be in order of ID, Name, Texture, Opacity, Spawn, Rarity and Drop.
+ALL attributes must be included.
+Drop attribute refers to resource ID.
+Block ID 0 must be reserved for air.
+
+"?" symbol refers to none.
+
+Spawn attributes must be in order of min then max.
+Spawn equation must be in form of "ah +b" where h is land height.
+Spawn symbol "i" refers to infinity.
+
+
+
+Block:
+    ID = 0;
+    Name = Air;
+    Textures = 0;
+    Opacity = 0;
+    Hardness = 0;
+    Spawn = 0;
+    Drop = ?;
+
+Block:
+    ID = 1;
+    Name = Grass;
+    Textures = 2;
+        0 = res/blocks/grass1.png;
+        1 = res/blocks/grass2.png;
+    Opacity = 1;
+    Hardness = 500;
+    Spawn = 1;
+        Min = 1h -64;
+        Max = 1h +0;
+    Use Noisemap = 0;
+    Drop = 0;
+
+Block:
+    ID = 2;
+    Name = Soil;
+    Textures = 4;
+        0 = res/blocks/soil1.png;
+        1 = res/blocks/soil2.png;
+        2 = res/blocks/soil3.png;
+        3 = res/blocks/soil4.png;
+    Opacity = 1;
+    Hardness = 500;
+    Spawn = 1;
+        Min = 1h +0;
+        Max = 1h +1024;
+    Use Noisemap = 0;
+    Drop = 0;
+
+Block:
+    ID = 3;
+    Name = Stone;
+    Textures = 2;
+        0 = res/blocks/stone1.png;
+        1 = res/blocks/stone2.png;
+    Opacity = 1;
+    Hardness = 1000;
+    Spawn = 1;
+        Min = 1h +512;
+        Max = i;
+    Use Noisemap = 0;
+    Drop = 1;
+
+Block:
+    ID = 4;
+    Name = Trunk;
+    Textures = 2;
+        0 = res/blocks/trunk1.png;
+        0 = res/blocks/trunk2.png;
+    Opacity = 0;
+    Hardness = 1000;
+    Spawn = 0;
+    Drop = 3;
+
+Block:
+    ID = 5;
+    Name = Leaves;
+    Textures = 1;
+        0 = res/blocks/leaves.png;
+    Opacity = 0;
+    Hardness = 200;
+    Spawn = 0;
+    Drop = ?;
+
+Block:
+    ID = 6;
+    Name = Iron Ore;
+    Textures = 2;
+        0 = res/blocks/iron_ore1.png;
+        1 = res/blocks/iron_ore2.png;
+    Opacity = 1;
+    Hardness = 1500;
+    Spawn = 1;
+        min = 1h +1024;
+        max = i;
+    Use Noisemap = 1;
+        Spread = 2000;
+        Frequency = 70;
+    Drop = 2;
+
+Block:
+    ID = 7;
+    Name = Bauxite;
+    Textures = 2;
+        0 = res/blocks/bauxite1.png;
+        1 = res/blocks/bauxite2.png;
+    Opacity = 1;
+    Hardness = 2000;
+    Spawn = 1;
+        min = 1h +2048;
+        max = i;
+    Use Noisemap = 1;
+        Spread = 3000;
+        Frequency = 75;
+    Drop = ?;
+
+Block:
+    ID = 8;
+    Name = Silicon Ore;
+    Textures = 1;
+        0 = res/blocks/silicon_ore.png;
+    Opacity = 1;
+    Hardness = 2000;
+    Spawn = 1;
+        min = 1h +4096;
+        max = i;
+    Use Noisemap = 1;
+        Spread = 2000;
+        Frequency = 75;
+    Drop = ?;
+
+Block:
+    ID = 9;
+    Name = Tall Grass;
+    Textures = 1;
+        0 = res/blocks/tall_grass.png;
+    Opacity = 0;
+    Hardness = 50;
+    Spawn = 1;
+        Min = 1h -128;
+        Max = 1h -65;
+    Use Noisemap = 1;
+        Size = 1000;
+        Threshold = 40;
+    Drop = ?;
+
+Block:
+    ID = 10;
+    Name = Rock;
+    Textures = 2;
+        0 = res/blocks/rock1.png;
+	1 = res/blocks/rock2.png;
+    Opacity = 0;
+    Hardness = 800;
+    Spawn = 1;
+        Min = 1h -128;
+        Max = 1h -65;
+    Use Noisemap = 1;
+        Size = 64;
+        Threshold = 75;
+    Drop = 1;
+
+
+-------------------- PASSIVE MOBS --------------------
+
+PMob:
+    ID = 0;
+    Name = Pig;
+    Texture = res/pig.png;
+    Width = 128;
+    Height = 64;
+    Max HP = 100;
+
+
+
+
